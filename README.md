@@ -10,6 +10,11 @@ These instructions are then read by the LLM and parsed by the python code, and t
 
 ## How to use:
 
+**You will need to download the Chrome Driver and palce it in the same directory as the python files/scripts**
+https://googlechromelabs.github.io/chrome-for-testing/#stable
+
+<br>
+
 **Clone the repository & Install the requirments**
 ```shell
 pip install -r requirements.txt
