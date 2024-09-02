@@ -1,6 +1,9 @@
 # AI Assited Web Scraper
 
+**Built with [Streamlit](https://streamlit.io/)**
+
 **Powered by [Ollamla](https://ollama.com/)**
+
 
 ABOUT:
 
