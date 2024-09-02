@@ -1,11 +1,14 @@
+import ast
+import json
+
 from bs4 import BeautifulSoup
+from langsmith.evaluation._runner import ET
 from selenium.webdriver import Chrome
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options as ChromeOptions
 from dotenv import load_dotenv
 import os
 
-# write a function that takes a URL and returns the text content of the page
 def scrape_website(url):
     load_dotenv()
     chrome_options = ChromeOptions()
@@ -22,8 +25,33 @@ def scrape_website(url):
 def extract_body_content(html_content):
     soup = BeautifulSoup(html_content, "html.parser")
     body_content = soup.body
+    
+    # check if content_type is json, xml, or javascript
     if body_content:
-        return str(body_content)
+        content_type = body_content.get('data-type')
+
+        if content_type == 'xml':
+            xml_data = ET.fromstring(body_content.text)
+            # Process XML data as needed
+            return xml_data
+
+        elif content_type == 'json':
+            json_data = json.loads(body_content.text)
+            # Process JSON data as needed
+            return json_data
+
+        elif content_type == 'javascript':
+            try:
+                js_data = ast.literal_eval(body_content.text)
+                # Process JavaScript data as needed
+                return js_data
+            except (SyntaxError, ValueError):
+                # Handle invalid JavaScript data
+                return None
+
+        else:
+            return str(body_content)
+
     return ""
 
 def clean_body_content(body_content):
