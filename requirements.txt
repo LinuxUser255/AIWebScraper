@@ -6,3 +6,5 @@ beautifulsoup4
 lxml
 html5lib
 python-dotenv
+ast
+json
