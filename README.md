@@ -2,7 +2,7 @@
 
 **Built with [Streamlit](https://streamlit.io/)**
 
-**Powered by [Ollamla](https://ollama.com/)**
+**Powered by [Ollama](https://ollama.com/)**
 
 
 ABOUT:
