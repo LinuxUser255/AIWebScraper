@@ -11,16 +11,19 @@ This webscraper uses the Ollama LLM to assist in web scraping.
 It prompts the user to supply a URL, and a description of they want scraped from the specified website.
 These instructions are then read by the LLM and parsed by the python code, and the results are returned to the user.
 
-## How to use:
+## First:
 
-**You will need to download the Chrome Driver and palce it in the same directory as the python files/scripts**
-https://googlechromelabs.github.io/chrome-for-testing/#stable
+## You will need to download the Chrome Driver 
+## and palce it in the same directory as the python files/scripts
+## --> https://googlechromelabs.github.io/chrome-for-testing/#stable
 
 <br>
 
+
+## Installation and use:
 **Clone the repository & Install the requirments**
 ```shell
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 **Then, in the command line, in the `/AIWebScraper` directory run:**
