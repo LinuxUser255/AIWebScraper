@@ -35,16 +35,20 @@ streamlit run main.py
 
 ## Quickstart
 
-To run and chat with [Llama 3.1](https://ollama.com/library/llama3.1):
+### To run and chat with [Llama 3.1](https://ollama.com/library/llama3.1):
 
+
+**To pull a model do:**
+```shell
+ollama pull llama3.1
 ```
+
+**Then run it interactively on the command line.**
+```shell
 ollama run llama3.1
 ```
 
-To pull a model do:
-```
-ollama pull llama3.1
-```
+
 ### _Before pulling a model number, keep in mind the memory constraints and limitations of your machine. Check the table below_
 
 
