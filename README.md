@@ -2,8 +2,14 @@
 
 **Built with [Streamlit](https://streamlit.io/)**
 
+
+![streamlit-mail-logo](https://github.com/user-attachments/assets/2bb87c8e-11e8-4236-bf85-162b099e7189)
+
+
+
 **Powered by [Ollama](https://ollama.com/)**
 
+<img width="452" alt="Screenshot 2025-01-13 at 5 18 23 PM" src="https://github.com/user-attachments/assets/9509b333-d71f-4e77-b222-c7b3297f5b55" />
 
 ABOUT:
 
