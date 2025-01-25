@@ -39,40 +39,53 @@ streamlit run main.py
 
 <br>
 
-## Quickstart
+# Quickstart
 
 ### To run and chat with [Llama 3.1](https://ollama.com/library/llama3.1):
 
+## _! However, `deepseek-coder-v2` is very impressive_
+
+## And, You can select it by running the included install script
+
+## * See the Shell Script instructions below.
+
+<br>
 
 **To pull a model do:**
 ```shell
 ollama pull llama3.1
 ```
 
-**Then run it interactively on the command line.**
+<br>
+
+
+## - Then run it interactively on the command line.
 ```shell
 ollama run llama3.1
 ```
+<br>
 
-**_You can also use this shell script to automate selecting and pulling Ollama Models_**
+## - _You can also use this shell script to automate selecting and pulling Ollama Models_
 ```shell
 chmod +x install_ollama.sh
 ./install_ollama.sh
 ```
 
+<br>
 
-### _Before pulling a model number, keep in mind the memory constraints and limitations of your machine. Check the table below_
-
+### - _Before pulling a model number, keep in mind the memory constraints and limitations of your machine. Check the table below_
 
 <br>
 
-**_The following information is from [Ollama's GitHub](https://github.com/ollama/ollama) and is relevant to it's use in this web scraper_**
+### - _The following information is from [Ollama's GitHub](https://github.com/ollama/ollama) and is relevant to it's use in this web scraper_
 
-## Model library
+<br>
 
-Ollama supports a list of models available on [ollama.com/library](https://ollama.com/library 'ollama model library')
+## - Model library
 
-Here are some example models that can be downloaded:
+**- Ollama supports a list of models available on [ollama.com/library](https://ollama.com/library 'ollama model library')**
+
+**- Here are some example models that can be downloaded:**
 
 | Model              | Parameters | Size  | Download                       |
 | ------------------ | ---------- | ----- | ------------------------------ |
