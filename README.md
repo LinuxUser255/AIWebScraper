@@ -53,9 +53,11 @@ ollama pull llama3.1
 ```shell
 ollama run llama3.1
 ```
-**I also have a shell script to automate selecting and pulling Ollama Models**
-```shell
 
+**You can also use this shell script to automate selecting and pulling Ollama Models**
+```shell
+chmod +x install_ollama.sh
+./install_ollama.sh
 ```
 
 
