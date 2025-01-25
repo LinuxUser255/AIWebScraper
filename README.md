@@ -53,6 +53,10 @@ ollama pull llama3.1
 ```shell
 ollama run llama3.1
 ```
+**I also have a shell script to automate selecting and pulling Ollama Models**
+```shell
+
+```
 
 
 ### _Before pulling a model number, keep in mind the memory constraints and limitations of your machine. Check the table below_
